@@ -1,0 +1,59 @@
+Reader.java
+-----------
+Reader(path) //opt = r
+Reader(path,opt)
+opt = r,w,rw,a
+r -readmode
+w = writemode
+rw = read and write mode
+a = rewrite mode
+Methods
+-------
+String read = to read from file.
+void write(String txt) = write txt to file
+void close = finilze the file.
+----------------------
+BRP.java
+-----------
+Methods
+
+print(Object) = print object
+print(object ...) = print objects in single line
+printa(object[]) = print elements in object[] line by line.
+
+range(int) = make array from 0 to int-1.
+range(int,int2) = make array from int to int2-1.
+range(int,int2,int3) = make array from int to int2-1 with interval int3
+
+into(int[]) = return Integer[]
+chato(char[]) = return Character[]
+flato(float[]) = return Float[]
+
+in(Object[],Object) = return boolean report presence of Object in Object[]
+notin = reverse of in method
+
+count(Object[],Object) = return int report no of Object in Object[]
+
+splitline(String) = split string by lines
+
+
+
+str(Object) = Object and Object[] to String
+Int(Object) = Object to Int
+
+len(Integer[]) = return length of array
+min(Integer[]) = return min number in array
+max(Integer[]) = return max number in array
+type(Object) = return name of object class
+
+sort(Object[]) = sort array
+reverse(Object[]) = reverse array
+
+input(String) = receive input from user from console after print string
+
+ReadFFile(path) = return txt in file in path
+
+WriteFile(path,String) = write string in file in path
+WriteFile(path,String,boolean) = write or rewrite(as per boolean) string in file in path
+
+time() = return time in milisecond scale
