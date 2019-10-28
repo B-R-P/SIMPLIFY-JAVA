@@ -40,6 +40,7 @@ splitline(String) = split string by lines
 
 str(Object) = Object and Object[] to String
 Int(Object) = Object to Int
+flot(Object) = Object to float
 
 len(Integer[]) = return length of array
 min(Integer[]) = return min number in array
