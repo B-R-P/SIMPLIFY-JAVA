@@ -58,6 +58,7 @@ bait([LObject)->[B
 bait(Object)->byte 
 dir(Object)->void 
 dir(Object)->void
+help(Object)->void
 prim(Long)->long 
 prim(Character)->char 
 prim(Byte)->byte 
