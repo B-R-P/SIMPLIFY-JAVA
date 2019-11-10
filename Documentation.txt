@@ -30,7 +30,7 @@ in([LObject, Object)->boolean
 list([LObject)->java.util.List 
 print([LObject)->void 
 reverse([LObject)->void 
-sort([LObject)->void 
+sorted([LObject)->void 
 range(int)->[I 
 range(int, int)->[I 
 range(int, int, int)->[I 
@@ -59,6 +59,7 @@ bait(Object)->byte
 dir(Object)->void 
 dir(Object)->void
 help(Object)->void
+help(Class)->void
 prim(Long)->long 
 prim(Character)->char 
 prim(Byte)->byte 
