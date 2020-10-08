@@ -230,5 +230,5 @@ public class BRP{
 		file.write(str(obj));
 		file.close();}
 	public static float time(){return System.currentTimeMillis()/1000F;}
-	final public String toString(){return "This class written by Bijin Regi Panicker.\nThis class is used to simplify java with various function for easy coding.\nWebsite:-bijinapps.blogspot.in";}
+	final public String toString(){return "This class is used to simplify java with various function for easy coding.";}
 }
