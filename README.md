@@ -1,7 +1,7 @@
 # SIMPLIFY-JAVA
 To simply java for fast,easy and clean coding.
 
-#Installation
+## Installation
 
 Add basic folder to your project folder.<br>
 Usage<br>
